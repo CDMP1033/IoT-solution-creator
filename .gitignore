@@ -1,0 +1,52 @@
+# Runtime state — never commit
+project_state.json
+project_state.tmp
+
+# Generated reports (all variants: technical, executive, new-format)
+*_report.md
+*_report_*.md
+
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Ruff cache
+.ruff_cache/
+
+# IDEs and local tooling
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
